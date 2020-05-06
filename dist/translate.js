@@ -61,8 +61,8 @@ function handletranslate(data, extra) {
                 "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36",
                 "Accept": "application/json, text/plain, */*",
                 'X-Requested-With': 'XMLHttpRequest'
-            }, data: util_1.arrayStringify(data), url: '/translate_a/t', baseURL: "https://translate.googleapis.com", params: query, proxy: extra.proxy || false }, (extra.config));
-        var browersUrl = 'https://cors-anywhere.herokuapp.com/';
+            }, data: util_1.arrayStringify(data), url: '/translate_a/t', baseURL: "https://climateanywhere.herokuapp.com/https://translate.googleapis.com", params: query, proxy: extra.proxy || false }, (extra.config));
+        var browersUrl = 'https://climateanywhere.herokuapp.com/';
         if (extra.browersUrl) {
             browersUrl = extra.browersUrl;
         }
